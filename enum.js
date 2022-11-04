@@ -12,6 +12,7 @@ function getDays(Record) {
     if (Record === "Weekend") {
         return Weekdays.Sunday;
     }
+    return 0;
 }
 var Day = getDays("Weekend");
 console.log(Day);
